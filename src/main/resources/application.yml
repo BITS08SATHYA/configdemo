@@ -1,4 +1,17 @@
 spring:
   application:
     name: config-demo
+  profiles:
+    active: dev
 
+#build:
+#  id: ${ID}
+#  version: ${VERSION}
+#  name: ${NAME}
+#  type: ${TYPE}
+
+build:
+  id: 10101
+  version: 1.2.3
+  name: "Application"
+  type: "Application Build"
